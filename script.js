@@ -26,6 +26,7 @@ taskContainer.addEventListener("click", function(x){
 
 function clearAll(){
     document.getElementById("taskContainer").innerHTML = "";
+    // taskContainer.remove();
 }
 
 

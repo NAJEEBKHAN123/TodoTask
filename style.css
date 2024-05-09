@@ -7,7 +7,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-shadow: 2px 2px gray;
+    background-image: url(./bg.jpg);
 }
 .container{
   border: 2px solid black;
@@ -17,7 +17,6 @@ body{
   background-color: bisque;
   border-radius: 5px;
   min-height: 200px;
-  text-shadow: 2px 2px gray;
   
 }
 input{
@@ -25,6 +24,7 @@ input{
     width: 70%;
     border-radius: 5px;
     font-size: 20px;
+   
 }
 
 button{
@@ -42,14 +42,15 @@ li{
     padding: 8px 33px;
     font-size: 20px;
     border-top: none;
-    border-right: none;
+    border-right: none; 
     border-left: none;
     border-bottom: 1px solid black;
-    border-radius: 80px;
-    text-shadow: 2px;
+    border-radius: 80px;    
     overflow: hidden;
+    text-transform: capitalize;
     
 }
+
 
 
 h1{
